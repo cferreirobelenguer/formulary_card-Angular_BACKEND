@@ -2,7 +2,7 @@ var mongoose=require('mongoose')
 var Schema=mongoose.Schema
 var esquemaSchema= Schema({
     name:String,
-    numer:String,
+    number:String,
     date:String,
     cvc:String
 });

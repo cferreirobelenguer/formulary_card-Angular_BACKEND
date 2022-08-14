@@ -1,24 +1,13 @@
 
 const esquemaSchema=require('../models/modelNumber')
-var validator= require('validator');
+
 
 var controller={
     save(req,res){
         var params=req.body;
-        try{
-            var validate_nombre=!validator.isEmpty(params.nombre);
-            var validate_number=!validator.isEmpty(params.number);
-            var validate_date=!validator.isEmpty(params.date);
-            var validate_cvc=!validator.isEmpty(params.cvc);
-        }catch(err){
-            return res.status(400).send({
-                status:'error',
-                message:'Faltan datos por enviar'
-            });
-        }
-        if(validate_nombre && validate_number && validate_date && validate_cvc){
+        
             var datosTarjeta=new esquemaSchema();
-            datosTarjeta.nombre=params.nombre;
+            datosTarjeta.name=params.name;
             datosTarjeta.number=params.number;
             datosTarjeta.date=params.date;
             datosTarjeta.cvc=params.cvc;
@@ -43,5 +32,5 @@ var controller={
         }
 
     }
-}
+
 module.exports=controller;
