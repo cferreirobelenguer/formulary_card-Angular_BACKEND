@@ -3,7 +3,7 @@ const express=require("express")
 const app=express();
 require('dotenv').config()
 var mongoose=require("mongoose")
-const peticiones=require('../backend/routes/routesTarject')
+const peticiones=require('./routes/route')
 
 const port=3500 || process.env.PORT
 
