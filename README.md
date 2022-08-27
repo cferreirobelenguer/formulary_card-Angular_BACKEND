@@ -1,5 +1,8 @@
-# Frontend Mentor - Interactive card details form 
-## BACKEND NODEJS EXPRESS+MONGODB
+# Frontend Mentor - Interactive card details form
+
+## Url challenge:
+https://www.frontendmentor.io/challenges/interactive-card-details-form-XpS8cKZDWw
+
 ## Proyect with Angular- Express- MongoDB- Tailwind
 ## Desktop Design
 
@@ -25,7 +28,7 @@
 
 ### Formulary design
 
-![image](https://user-images.githubusercontent.com/88061350/187025707-4e401de5-c84f-4a34-8a02-29ba96aac0d9.png)
+![image](https://user-images.githubusercontent.com/88061350/187041097-1a85a833-bc4c-4e96-a89a-1eb64482b85c.png)
 
 ### Validations with Javascript and angular
 
@@ -39,12 +42,6 @@
 
 ![image](https://user-images.githubusercontent.com/88061350/187025765-0b5fa0bd-931c-47ee-b0fa-4ef726c49b65.png)
 
+![image](https://user-images.githubusercontent.com/88061350/187041129-3f073e09-ec20-4606-98a5-5ac2f1c74463.png)
 
 ## Database with mongoDB Atlas
-
-
-
-
-
-
-
